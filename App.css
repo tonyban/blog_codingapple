@@ -3,17 +3,38 @@
 }
 
 body {
-  font-family: 'nanumsquare';
+  font-family: 'arial';
 }
 
 .modal {
   margin-top: 20px;
   padding: 20px;
-  background: #eee;
+  background: rgb(110, 141, 224);
+  color: white;
+}
+
+.publish {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.publish input {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 88%;
+  border: 5px solid rgb(167, 170, 166);
+  background: rgb(235, 235, 186);
+}
+
+.publish button {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
 }
 
 .black-nav {
-  background: black;
+  background: rgb(10, 10, 48);
   width: 100%;
   display: flex;
   color: white;
